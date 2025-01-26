@@ -51,7 +51,7 @@ class Student:
         self.is_alive()
 
 
-student1 = Student('Vasilluy')
+student1 = Student(input("student's name - "))
 
 for day in range(365):
     if student1.alive:
